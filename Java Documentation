@@ -42,3 +42,46 @@ While loop -  while (condition) { /run code here/ }
 While loop -  for (A start; B end; C increment) { /run code here/ }
 Example for (int i = 0; i <= 10; i = i + 2) { /run code here/ }
 
+Java Language (OPP), class based 	PAGE 2
+
+Arrays [] (start at 0) (To loop in an array, set to (i=0; i<=cars.length; I++)
+int[] numberLine = {1, 2, 3, 4}; Get System.out.println(cars[0]);
+Define cars[0] = "red"; Length(Int) System.out.println(cars.length);
+
+Multi-Dimensional Arrays [][] (To loop in double array, double loops)
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+(Get to 2nd array, then 3rd Element) int x = myNumbers[1][2];	(7)
+
+Methods (Function)
+public class Main {
+  static void myMethod() {/code to be executed/}	
+} (myMethod()
+ Name of method)(static means that method belongs toMain class and not object)(void means their is no return data) 		Call Function myMethod(); 
+
+Method overloading (same name with(must) different parameters)
+Method overloading is using the same name but the parameters must have unique requirements
+static int plusMethod(int x, int y) {
+  return x + y;
+}
+static double plusMethod(double x, double y) {
+  return x + y;
+}
+  int myNum1 = plusMethod(8, 5); 		(Calls only one)
+  double myNum2 = plusMethod(4.3, 6.26); 	(Calls only one)
+Scope
+Variables declared directly inside a method are available anywhere in the method following the line of code in which they were declared, but not beyond itself
+Recursion (Method calling itself; rabbithole)
+Breaking problems down into simple problems to solve
+Example
+public static int sum(int start, int end) {
+    if (end > start) {
+      return end + sum(start, end - 1);
+    } else {
+      return end;
+    }
+  }
+The Halting problem
+The Halting problem is a computer problem where a function never ends; uses up computer power, caused by a unsolvable task, like divided by 0
+Value Types int myNum = 5;  Integer (whole num) / float myFloatNum = 5.99f; Floating point number / char myLetter = 'D'; Character /  boolean myBool = true;  Boolean /  String myText = "Hello"; String
+
+
