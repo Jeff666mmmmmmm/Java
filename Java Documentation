@@ -1,0 +1,44 @@
+LINK https://www.w3schools.com/java/
+
+Java Language (OPP), class based
+
+abstract continue for        new      switch
+assert   default  goto*      package  synchronized
+Boolean  do	   if         private  this    
+Break    double   implements protected  throw
+byte	    else	   import     public   throws
+case	    enum	   instanceof return   transient
+Catch    extends  int        try      short   
+char	    final	   interface  static   void
+Class    finally  long	    strictfp volatile
+const*   float	   native     super	   while
+(*)unused keywords
+
+true, false, and null count as literals/identifiers
+
++	Addition	Adds together two values	
+-	Subtraction	Subtracts one value from another
+*	Multiplication	Multiplies two values	
+/	Division	Divides one value by another
+%	Modulus	Returns the division remainder		
+++	Increment	Increases the value of a variable by 1	
+--	Decrement	Decreases the value of a variable by 1
+
+Widening Casting (automatically) - converting a smaller type to a larger type
+byte -> short -> char -> int -> long -> float -> double
+
+Narrowing Casting (manually) - converting a larger type to a smaller type
+double -> float -> long -> int -> char -> short -> byte
+
+MATH
+Math.max(x,y)	Math.min(x,y)	Math.min(x,y)	Math.abs(x)
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+Define an If statement
+if (condition) { /run code here/ } 
+Else
+}else{ /run else code here/ }
+Loops		break (jumps out of loop)  continue (ends iteration)
+While loop -  while (condition) { /run code here/ }
+While loop -  for (A start; B end; C increment) { /run code here/ }
+Example for (int i = 0; i <= 10; i = i + 2) { /run code here/ }
+
