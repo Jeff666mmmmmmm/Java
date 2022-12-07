@@ -1,0 +1,41 @@
+public class MyProgram
+{
+    Scanner scanner = new Scanner(System.in);
+    
+    public static void main(String[] args)
+    {
+        boolean askUser;
+        int floors;
+        
+        
+        while(askUser){
+            if (floors == null)
+            System.out.println("Enter Number of floors");
+            
+            String str = scanner.nextInt();
+    
+            if(floors == null){
+                if (isValid(str)){
+                    System.out.println("valid");
+                }else{
+                
+            }   }else{
+               
+            } 
+               
+                
+            }
+       
+        }
+    
+    
+    public boolean isValid(int number){
+        
+        return false;
+    }
+    
+    public boolen isValid(int number, int maxNumber){
+        
+        return false;
+    }
+}
